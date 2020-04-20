@@ -1,5 +1,5 @@
 {
-  "name": "metro-transform-plugins",
+  "name": "@irbnb/metro-transform-plugins",
   "version": "0.59.0",
   "description": "🚇 Transform plugins for Metro",
   "main": "src/index.js",

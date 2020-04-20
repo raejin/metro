@@ -1,5 +1,5 @@
 {
-  "name": "metro-babel-transformer",
+  "name": "@irbnb/metro-babel-transformer",
   "version": "0.59.0",
   "description": "Base Babel transformer for Metro",
   "main": "src/index.js",
@@ -13,11 +13,11 @@
   },
   "keywords": [
     "transformer",
-    "metro"
+    "@irbnb/metro"
   ],
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.0.0",
-    "metro-source-map": "0.59.0"
+    "@irbnb/metro-source-map": "0.59.0"
   }
 }

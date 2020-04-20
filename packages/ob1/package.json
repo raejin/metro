@@ -1,5 +1,5 @@
 {
-  "name": "ob1",
+  "name": "@irbnb/ob1",
   "version": "0.59.0",
   "description": "A small library for working with 0- and 1-based offsets in a type-checked way.",
   "main": "src/ob1.js",
@@ -12,7 +12,7 @@
     "cleanup-release": "test ! -e build && mv src build && mv src.real src"
   },
   "keywords": [
-    "metro"
+    "@irbnb/metro"
   ],
   "license": "MIT",
   "dependencies": {}

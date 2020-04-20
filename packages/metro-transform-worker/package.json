@@ -1,5 +1,5 @@
 {
-  "name": "metro-transform-worker",
+  "name": "@irbnb/metro-transform-worker",
   "version": "0.59.0",
   "description": "🚇 Transform worker for Metro",
   "main": "src/index.js",
@@ -18,16 +18,16 @@
     "@babel/parser": "^7.0.0",
     "@babel/types": "^7.0.0",
     "babel-preset-fbjs": "^3.3.0",
-    "metro-babel-transformer": "0.59.0",
-    "metro-cache": "0.59.0",
-    "metro-source-map": "0.59.0",
-    "metro-transform-plugins": "0.59.0",
-    "metro": "0.59.0"
+    "@irbnb/metro-babel-transformer": "0.59.0",
+    "@irbnb/metro-cache": "0.59.0",
+    "@irbnb/metro-source-map": "0.59.0",
+    "@irbnb/metro-transform-plugins": "0.59.0",
+    "@irbnb/metro": "0.59.0"
   },
   "devDependencies": {
-    "metro-minify-uglify": "0.59.0",
-    "metro-memory-fs": "0.59.0",
+    "@irbnb/metro-minify-uglify": "0.59.0",
+    "@irbnb/metro-memory-fs": "0.59.0",
     "mkdirp": "^0.5.1",
-    "metro-react-native-babel-transformer": "0.59.0"
+    "@irbnb/metro-react-native-babel-transformer": "0.59.0"
   }
 }

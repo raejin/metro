@@ -1,5 +1,5 @@
 {
-  "name": "metro-minify-uglify",
+  "name": "@irbnb/metro-minify-uglify",
   "version": "0.59.0",
   "description": "🚇 Default minifier for Metro",
   "main": "src/index.js",
