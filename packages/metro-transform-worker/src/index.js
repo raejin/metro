@@ -25,10 +25,10 @@ const {
   importExportPlugin,
   inlinePlugin,
   normalizePseudoGlobals,
-} = require('metro-transform-plugins');
+} = require('@irbnb/metro-transform-plugins');
 const inlineRequiresPlugin = require('babel-preset-fbjs/plugins/inline-requires');
 const {transformFromAstSync} = require('@babel/core');
-const {stableHash} = require('metro-cache');
+const {stableHash} = require('@irbnb/metro-cache');
 const types = require('@babel/types');
 const countLines = require('metro/src/lib/countLines');
 
@@ -36,7 +36,7 @@ const {
   fromRawMappings,
   toBabelSegments,
   toSegmentTuple,
-} = require('metro-source-map');
+} = require('@irbnb/metro-source-map');
 import type {TransformResultDependency} from 'metro/src/DeltaBundler';
 import type {AllowOptionalDependencies} from 'metro/src/DeltaBundler/types.flow.js';
 import type {DynamicRequiresBehavior} from 'metro/src/ModuleGraph/worker/collectDependencies';
@@ -83,7 +83,7 @@ export type JsTransformerConfig = $ReadOnly<{|
   allowOptionalDependencies: AllowOptionalDependencies,
 |}>;
 
-import type {CustomTransformOptions} from 'metro-babel-transformer';
+import type {CustomTransformOptions} from '@irbnb/metro-babel-transformer';
 export type {CustomTransformOptions} from 'metro-babel-transformer';
 
 export type JsTransformOptions = $ReadOnly<{|

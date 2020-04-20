@@ -54,7 +54,7 @@ describe('code transformation worker:', () => {
   beforeEach(() => {
     jest.resetModules();
 
-    jest.mock('fs', () => new (require('metro-memory-fs'))());
+    jest.mock('fs', () => new (require('@irbnb/metro-memory-fs'))());
 
     fs = require('fs');
     mkdirp = require('mkdirp');

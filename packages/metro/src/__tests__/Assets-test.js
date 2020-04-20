@@ -10,7 +10,7 @@
 
 'use strict';
 
-jest.mock('fs', () => new (require('metro-memory-fs'))());
+jest.mock('fs', () => new (require('@irbnb/metro-memory-fs'))());
 jest.mock('image-size');
 
 const {getAssetData, getAsset} = require('../Assets');

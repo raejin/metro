@@ -12,7 +12,7 @@
 
 const vlq = require('vlq');
 
-const {normalizeSourcePath} = require('metro-source-map');
+const {normalizeSourcePath} = require('@irbnb/metro-source-map');
 
 import type {
   MixedSourceMap,

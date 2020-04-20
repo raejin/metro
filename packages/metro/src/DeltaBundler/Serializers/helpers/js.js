@@ -15,7 +15,7 @@ const invariant = require('invariant');
 const path = require('path');
 
 import type {MixedOutput, Module, Dependency} from '../../types.flow';
-import type {JsOutput} from 'metro-transform-worker';
+import type {JsOutput} from '@irbnb/metro-transform-worker';
 
 export type Options = {
   +createModuleId: string => number | string,

@@ -17,7 +17,7 @@ const fs = require('fs');
 const getTransformCacheKey = require('./getTransformCacheKey');
 const path = require('path');
 
-const {Cache, stableHash} = require('metro-cache');
+const {Cache, stableHash} = require('@irbnb/metro-cache');
 
 import type {TransformResult, TransformResultWithSource} from '../DeltaBundler';
 import type {TransformOptions, TransformerConfig} from './Worker';

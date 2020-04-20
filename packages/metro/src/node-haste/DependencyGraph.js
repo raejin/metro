@@ -10,10 +10,10 @@
 
 'use strict';
 
-const {AmbiguousModuleResolutionError} = require('metro-core');
+const {AmbiguousModuleResolutionError} = require('@irbnb/metro-core');
 const {DuplicateHasteCandidatesError} = require('jest-haste-map').ModuleMap;
-const {InvalidPackageError} = require('metro-resolver');
-const {PackageResolutionError} = require('metro-core');
+const {InvalidPackageError} = require('@irbnb/metro-resolver');
+const {PackageResolutionError} = require('@irbnb/metro-core');
 
 const JestHasteMap = require('jest-haste-map');
 const Module = require('./Module');
@@ -27,7 +27,7 @@ const {ModuleResolver} = require('./DependencyGraph/ModuleResolution');
 const {EventEmitter} = require('events');
 const {
   Logger: {createActionStartEntry, createActionEndEntry, log},
-} = require('metro-core');
+} = require('@irbnb/metro-core');
 
 import type {ModuleMap} from './DependencyGraph/ModuleResolution';
 import type Package from './Package';

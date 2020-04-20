@@ -20,7 +20,7 @@ describe('AutoCleanFileStore', () => {
       .resetModules()
       .resetAllMocks()
       .useFakeTimers()
-      .mock('fs', () => new (require('metro-memory-fs'))());
+      .mock('fs', () => new (require('@irbnb/metro-memory-fs'))());
 
     AutoCleanFileStore = require('../AutoCleanFileStore');
     fs = require('fs');

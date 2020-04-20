@@ -19,7 +19,7 @@ const makeHMRConfig = require('metro-react-native-babel-preset/src/configs/hmr')
 const path = require('path');
 
 const {parseSync, transformFromAstSync} = require('@babel/core');
-const {generateFunctionMap} = require('metro-source-map');
+const {generateFunctionMap} = require('@irbnb/metro-source-map');
 
 import type {Plugins as BabelPlugins} from '@babel/core';
 import type {
@@ -96,7 +96,7 @@ const getBabelRC = (function() {
 
       babelRC.presets = [
         [
-          require('metro-react-native-babel-preset'),
+          require('@irbnb/metro-react-native-babel-preset'),
           /* $FlowFixMe(>=0.122.0 site=react_native_fb) This comment suppresses
            * an error found when Flow v0.122.0 was deployed. To see the error,
            * delete this comment and run Flow. */

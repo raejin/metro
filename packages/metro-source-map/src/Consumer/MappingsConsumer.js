@@ -23,7 +23,7 @@ const {
   lookupBiasToString,
 } = require('./constants');
 const {greatestLowerBound} = require('./search');
-const {add, get0, add0, sub, inc} = require('ob1');
+const {add, get0, add0, sub, inc} = require('@irbnb/ob1');
 const {decode: decodeVlq} = require('vlq');
 
 import type {BasicSourceMap} from '../source-map';

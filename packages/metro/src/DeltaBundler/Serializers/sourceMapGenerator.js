@@ -16,7 +16,7 @@ const {isJsModule} = require('./helpers/js');
 const {
   fromRawMappings,
   fromRawMappingsNonBlocking,
-} = require('metro-source-map');
+} = require('@irbnb/metro-source-map');
 
 import type {Module} from '../types.flow';
 

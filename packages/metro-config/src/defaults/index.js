@@ -25,8 +25,8 @@ const {
   DEFAULT_METRO_MINIFIER_PATH,
   defaultCreateModuleIdFactory,
 } = require('./defaults');
-const {FileStore} = require('metro-cache');
-const {Terminal} = require('metro-core');
+const {FileStore} = require('@irbnb/metro-cache');
+const {Terminal} = require('@irbnb/metro-core');
 
 import type {ConfigT} from '../configTypes.flow';
 
@@ -125,7 +125,7 @@ const getDefaultValues = (projectRoot: ?string): ConfigT => ({
   projectRoot: projectRoot || path.resolve(__dirname, '../../..'),
   stickyWorkers: true,
   watchFolders: [],
-  transformerPath: require.resolve('metro-transform-worker'),
+  transformerPath: require.resolve('@irbnb/metro-transform-worker'),
   maxWorkers: getMaxWorkers(),
   resetCache: false,
   reporter: new TerminalReporter(new Terminal(process.stdout)),

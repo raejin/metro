@@ -26,7 +26,7 @@ const url = require('url');
 
 const {
   Logger: {createActionStartEntry, createActionEndEntry, log},
-} = require('metro-core');
+} = require('@irbnb/metro-core');
 
 import type {RevisionId} from './IncrementalBundler';
 import type {

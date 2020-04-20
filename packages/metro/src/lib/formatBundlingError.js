@@ -22,7 +22,7 @@ const {
   UnableToResolveError,
 } = require('../node-haste/DependencyGraph/ModuleResolution');
 const {codeFrameColumns} = require('@babel/code-frame');
-const {AmbiguousModuleResolutionError} = require('metro-core');
+const {AmbiguousModuleResolutionError} = require('@irbnb/metro-core');
 
 import type {FormattedError} from './bundle-modules/types.flow';
 

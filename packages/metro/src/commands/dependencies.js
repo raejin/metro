@@ -16,7 +16,7 @@ const fs = require('fs');
 const path = require('path');
 
 const {makeAsyncCommand} = require('../cli-utils');
-const {loadConfig} = require('metro-config');
+const {loadConfig} = require('@irbnb/metro-config');
 
 import typeof Yargs from 'yargs';
 

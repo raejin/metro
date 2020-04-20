@@ -49,7 +49,7 @@ describe('processRequest', () => {
 
     Bundler = require('../../Bundler');
     crypto = require('crypto');
-    jest.mock('fs', () => new (require('metro-memory-fs'))());
+    jest.mock('fs', () => new (require('@irbnb/metro-memory-fs'))());
     fs = require('fs');
     getAsset = require('../../Assets').getAsset;
     getPrependedScripts = require('../../lib/getPrependedScripts');

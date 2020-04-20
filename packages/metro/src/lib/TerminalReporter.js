@@ -17,14 +17,14 @@ const path = require('path');
 const reporting = require('./reporting');
 const throttle = require('lodash.throttle');
 
-const {AmbiguousModuleResolutionError} = require('metro-core');
+const {AmbiguousModuleResolutionError} = require('@irbnb/metro-core');
 
 import type {
   BundleDetails,
   ReportableEvent,
   GlobalCacheDisabledReason,
 } from './reporting';
-import type {Terminal} from 'metro-core';
+import type {Terminal} from '@irbnb/metro-core';
 
 type BundleProgress = {
   bundleDetails: BundleDetails,

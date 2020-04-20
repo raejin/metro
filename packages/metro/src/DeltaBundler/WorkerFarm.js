@@ -10,7 +10,7 @@
 
 'use strict';
 
-const {Logger} = require('metro-core');
+const {Logger} = require('@irbnb/metro-core');
 const JestWorker = require('jest-worker').default;
 
 import type {Readable} from 'stream';

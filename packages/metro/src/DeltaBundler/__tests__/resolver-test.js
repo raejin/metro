@@ -12,7 +12,7 @@
 
 const path = require('path');
 
-const {mergeConfig} = require('metro-config');
+const {mergeConfig} = require('@irbnb/metro-config');
 const mockPlatform = process.platform;
 
 jest.useRealTimers();
@@ -118,11 +118,11 @@ let resolver;
         jest.mock('path', () => require.requireActual('path').win32);
         jest.mock(
           'fs',
-          () => new (require('metro-memory-fs'))({platform: 'win32'}),
+          () => new (require('@irbnb/metro-memory-fs'))({platform: 'win32'}),
         );
       } else {
         jest.mock('path', () => require.requireActual('path'));
-        jest.mock('fs', () => new (require('metro-memory-fs'))());
+        jest.mock('fs', () => new (require('@irbnb/metro-memory-fs'))());
       }
 
       require('os').tmpdir = () => p('/tmp');

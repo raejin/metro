@@ -17,7 +17,7 @@ const {
 } = require('./util');
 
 import type {ModuleGroups, ModuleTransportLike} from '../../types.flow';
-import type {IndexMap} from 'metro-source-map';
+import type {IndexMap} from '@irbnb/metro-source-map';
 
 type Params = {|
   fixWrapperOffset: boolean,

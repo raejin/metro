@@ -14,8 +14,8 @@ const MetroApi = require('../index');
 const TerminalReporter = require('../lib/TerminalReporter');
 
 const {makeAsyncCommand} = require('../cli-utils');
-const {loadConfig} = require('metro-config');
-const {Terminal} = require('metro-core');
+const {loadConfig} = require('@irbnb/metro-config');
+const {Terminal} = require('@irbnb/metro-core');
 
 import typeof Yargs from 'yargs';
 

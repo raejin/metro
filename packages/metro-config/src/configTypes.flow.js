@@ -11,10 +11,10 @@
 'use strict';
 
 import type {IncomingMessage, ServerResponse} from 'http';
-import type {CacheStore} from 'metro-cache';
-import type {CustomResolver} from 'metro-resolver';
-import type {BasicSourceMap, MixedSourceMap} from 'metro-source-map';
-import type {JsTransformerConfig} from 'metro-transform-worker';
+import type {CacheStore} from '@irbnb/metro-cache';
+import type {CustomResolver} from '@irbnb/metro-resolver';
+import type {BasicSourceMap, MixedSourceMap} from '@irbnb/metro-source-map';
+import type {JsTransformerConfig} from '@irbnb/metro-transform-worker';
 import type {
   DeltaResult,
   Graph,

@@ -13,10 +13,10 @@
 const meta = require('../../shared/output/meta');
 
 const {getModuleCodeAndMap, concat} = require('./util');
-const {BundleBuilder} = require('metro-source-map');
+const {BundleBuilder} = require('@irbnb/metro-source-map');
 
 import type {OutputFn} from '../types.flow';
-import type {MixedSourceMap} from 'metro-source-map';
+import type {MixedSourceMap} from '@irbnb/metro-source-map';
 
 function asPlainBundle({
   filename,

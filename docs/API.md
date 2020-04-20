@@ -35,7 +35,7 @@ title: API
 - Create a Connect middleware and plug it into a server
 
   ```js
-  const Metro = require('metro');
+  const Metro = require('@irbnb/metro');
   const express = require('express');
   const app = express();
   const server = require('http').Server(app);

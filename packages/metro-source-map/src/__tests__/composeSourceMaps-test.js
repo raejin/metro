@@ -21,7 +21,7 @@ const invariant = require('invariant');
 const path = require('path');
 const uglifyEs = require('uglify-es');
 
-const {add0, add1} = require('ob1');
+const {add0, add1} = require('@irbnb/ob1');
 
 const TestScript1 =
   '/* Half of a program that throws */\

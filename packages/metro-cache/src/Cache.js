@@ -10,9 +10,9 @@
 
 'use strict';
 
-const {Logger} = require('metro-core');
+const {Logger} = require('@irbnb/metro-core');
 
-import type {CacheStore} from 'metro-cache';
+import type {CacheStore} from '@irbnb/metro-cache';
 
 /**
  * Main cache class. Receives an array of cache instances, and sequentially

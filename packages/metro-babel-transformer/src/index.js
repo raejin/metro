@@ -11,10 +11,10 @@
 'use strict';
 
 const {parseSync, transformFromAstSync} = require('@babel/core');
-const {generateFunctionMap} = require('metro-source-map');
+const {generateFunctionMap} = require('@irbnb/metro-source-map');
 
 import type {Ast, Plugins} from '@babel/core';
-import type {FBSourceFunctionMap} from 'metro-source-map';
+import type {FBSourceFunctionMap} from '@irbnb/metro-source-map';
 
 export type CustomTransformOptions = {
   [string]: mixed,

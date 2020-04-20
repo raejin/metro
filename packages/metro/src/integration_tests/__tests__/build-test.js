@@ -12,7 +12,7 @@
 'use strict';
 
 const Metro = require('../../..');
-const MetroConfig = require('metro-config');
+const MetroConfig = require('@irbnb/metro-config');
 
 const execBundle = require('../execBundle');
 const path = require('path');

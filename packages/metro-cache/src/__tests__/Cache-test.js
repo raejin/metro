@@ -27,7 +27,7 @@ describe('Cache', () => {
   }
 
   beforeEach(() => {
-    Logger = require('metro-core').Logger;
+    Logger = require('@irbnb/metro-core').Logger;
     Cache = require('../Cache');
 
     Logger.on('log', item => {

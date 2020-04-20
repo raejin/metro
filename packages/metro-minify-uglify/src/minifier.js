@@ -12,8 +12,8 @@
 
 const uglify = require('uglify-es');
 
-import type {BasicSourceMap} from 'metro-source-map';
-import type {MinifierResult, MinifierOptions} from 'metro-transform-worker';
+import type {BasicSourceMap} from '@irbnb/metro-source-map';
+import type {MinifierResult, MinifierOptions} from '@irbnb/metro-transform-worker';
 
 function minifier(options: MinifierOptions): MinifierResult {
   const result = minify(options);

@@ -13,7 +13,7 @@
 
 const nullthrows = require('nullthrows');
 
-import type {CustomTransformOptions} from 'metro-transform-worker';
+import type {CustomTransformOptions} from '@irbnb/metro-transform-worker';
 
 const PREFIX = 'transform.';
 

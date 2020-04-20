@@ -11,7 +11,7 @@
 
 'use strict';
 
-import type {BasicSourceMap} from 'metro-source-map';
+import type {BasicSourceMap} from '@irbnb/metro-source-map';
 
 jest.mock('terser', () => ({
   minify: jest.fn(code => {

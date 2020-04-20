@@ -19,7 +19,7 @@ const path = require('path');
 
 const {getModuleCodeAndMap, partition, toModuleTransport} = require('./util');
 
-import type {IndexMap} from 'metro-source-map';
+import type {IndexMap} from '@irbnb/metro-source-map';
 import type {Module, OutputFn, OutputFnArg, OutputResult} from '../types.flow';
 
 function asMultipleFilesRamBundle({

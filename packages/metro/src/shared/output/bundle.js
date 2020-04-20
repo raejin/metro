@@ -16,7 +16,7 @@ const relativizeSourceMapInline = require('../../lib/relativizeSourceMap');
 const writeFile = require('./writeFile');
 
 import type {OutputOptions, RequestOptions} from '../types.flow';
-import type {MixedSourceMap} from 'metro-source-map';
+import type {MixedSourceMap} from '@irbnb/metro-source-map';
 
 function buildBundle(
   packagerClient: Server,
