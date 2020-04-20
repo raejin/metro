@@ -1,5 +1,5 @@
 {
-  "name": "metro-minify-terser",
+  "name": "@irbnb/metro-minify-terser",
   "version": "0.59.0",
   "description": "🚇 Alternative minifier for Metro",
   "main": "src/index.js",
