@@ -1,5 +1,5 @@
 {
-  "version": "0.59.0",
+  "version": "0.59.1-airbnb.0",
   "name": "@irbnb/metro-core",
   "description": "🚇 Core files for Metro",
   "main": "src/index.js",
@@ -12,9 +12,9 @@
     "cleanup-release": "test ! -e build && mv src build && mv src.real src"
   },
   "dependencies": {
+    "@irbnb/metro-resolver": "^0.59.1-airbnb.0",
     "jest-haste-map": "^25.4.0",
-    "lodash.throttle": "^4.1.1",
-    "@irbnb/metro-resolver": "0.59.0"
+    "lodash.throttle": "^4.1.1"
   },
   "license": "MIT"
 }

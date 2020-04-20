@@ -1,6 +1,6 @@
 {
   "name": "@irbnb/metro-config",
-  "version": "0.59.0",
+  "version": "0.59.1-airbnb.0",
   "description": "🚇 Config parser for Metro",
   "main": "src/index.js",
   "repository": {
@@ -13,11 +13,11 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@irbnb/metro": "^0.59.1-airbnb.0",
+    "@irbnb/metro-cache": "^0.59.1-airbnb.0",
+    "@irbnb/metro-core": "^0.59.1-airbnb.0",
     "cosmiconfig": "^5.0.5",
-    "jest-validate": "^25.4.0",
-    "@irbnb/metro": "0.59.0",
-    "@irbnb/metro-cache": "0.59.0",
-    "@irbnb/metro-core": "0.59.0"
+    "jest-validate": "^25.4.0"
   },
   "devDependencies": {
     "pretty-format": "^25.4.0",

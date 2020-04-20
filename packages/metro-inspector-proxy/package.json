@@ -1,6 +1,6 @@
 {
   "name": "@irbnb/metro-inspector-proxy",
-  "version": "0.59.0",
+  "version": "0.59.1-airbnb.0",
   "description": "@irbnb/metro-inspector-proxy",
   "main": "src/index.js",
   "bin": "src/cli.js",
