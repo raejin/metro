@@ -1,6 +1,6 @@
 {
   "name": "@irbnb/metro-symbolicate",
-  "version": "0.59.1-airbnb.0",
+  "version": "0.59.1-airbnb.1",
   "description": "A tool to find the source location from JS bundles and stack traces.",
   "license": "MIT",
   "main": "./src/symbolicate.js",
@@ -20,7 +20,7 @@
     "@irbnb/metro"
   ],
   "dependencies": {
-    "@irbnb/metro-source-map": "^0.59.1-airbnb.0",
+    "@irbnb/metro-source-map": "^0.59.1-airbnb.1",
     "invariant": "^2.2.4",
     "source-map": "^0.5.6",
     "through2": "^2.0.1",

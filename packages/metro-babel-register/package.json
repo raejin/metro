@@ -1,5 +1,5 @@
 {
-  "version": "0.59.1-airbnb.0",
+  "version": "0.59.1-airbnb.1",
   "name": "@irbnb/metro-babel-register",
   "description": "🚇 babel/register configuration for Metro.",
   "main": "src/babel-register.js",
