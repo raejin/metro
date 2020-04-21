@@ -12,7 +12,7 @@
 
 const path = require('path');
 
-import type {MixedSourceMap} from 'metro-source-map';
+import type {MixedSourceMap} from '@irbnb/metro-source-map';
 
 function relativizeSourceMapInline(
   sourceMap: MixedSourceMap,

@@ -15,7 +15,7 @@ const Transformer = require('./DeltaBundler/Transformer');
 
 import type {TransformOptions} from './DeltaBundler/Worker';
 import type {TransformResultWithSource} from './DeltaBundler';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 export type BundlerOptions = $ReadOnly<{|
   hasReducedPerformance?: boolean,

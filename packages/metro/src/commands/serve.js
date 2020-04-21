@@ -13,7 +13,7 @@
 const MetroApi = require('../index');
 
 const {watchFile, makeAsyncCommand} = require('../cli-utils');
-const {loadConfig, resolveConfig} = require('metro-config');
+const {loadConfig, resolveConfig} = require('@irbnb/metro-config');
 const {promisify} = require('util');
 
 import typeof Yargs from 'yargs';

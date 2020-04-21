@@ -12,15 +12,15 @@
 
 jest
   .setMock('jest-worker', () => ({}))
-  .mock('fs', () => new (require('metro-memory-fs'))())
+  .mock('fs', () => new (require('@irbnb/metro-memory-fs'))())
   .mock('assert')
   .mock('../getTransformCacheKey', () => () => 'hash')
   .mock('../../WorkerFarm')
   .mock('/path/to/transformer.js', () => ({}), {virtual: true});
 
 var Transformer = require('../');
-var {getDefaultValues} = require('metro-config/src/defaults');
-var {mergeConfig} = require('metro-config/src/loadConfig');
+var {getDefaultValues} = require('@irbnb/metro-config/src/defaults');
+var {mergeConfig} = require('@irbnb/metro-config/src/loadConfig');
 var fs = require('fs');
 const mkdirp = require('mkdirp');
 

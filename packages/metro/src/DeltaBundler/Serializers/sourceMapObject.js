@@ -16,7 +16,7 @@ const {
 } = require('./sourceMapGenerator');
 
 import type {Module} from '../types.flow';
-import type {MixedSourceMap} from 'metro-source-map';
+import type {MixedSourceMap} from '@irbnb/metro-source-map';
 
 function sourceMapObject(
   modules: $ReadOnlyArray<Module<>>,

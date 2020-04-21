@@ -25,7 +25,7 @@ import type {Options as DeltaBundlerOptions} from './DeltaBundler/types.flow';
 import type {DeltaResult, Module, Graph} from './DeltaBundler';
 import type {GraphId} from './lib/getGraphId';
 import type {TransformInputOptions} from './lib/transformHelpers';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 export opaque type RevisionId: string = string;
 

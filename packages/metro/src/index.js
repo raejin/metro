@@ -23,8 +23,8 @@ const makeDependenciesCommand = require('./commands/dependencies');
 const makeServeCommand = require('./commands/serve');
 const outputBundle = require('./shared/output/bundle');
 
-const {loadConfig, mergeConfig, getDefaultConfig} = require('metro-config');
-const {InspectorProxy} = require('metro-inspector-proxy');
+const {loadConfig, mergeConfig, getDefaultConfig} = require('@irbnb/metro-config');
+const {InspectorProxy} = require('@irbnb/metro-inspector-proxy');
 
 import type {ServerOptions} from './Server';
 import type {Graph} from './DeltaBundler';

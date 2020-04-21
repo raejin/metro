@@ -16,7 +16,7 @@ const fs = require('fs');
 const invariant = require('invariant');
 const path = require('path');
 
-import type {MixedSourceMap, HermesFunctionOffsets} from 'metro-source-map';
+import type {MixedSourceMap, HermesFunctionOffsets} from '@irbnb/metro-source-map';
 // flowlint-next-line untyped-type-import:off
 import {typeof SourceMapConsumer} from 'source-map';
 

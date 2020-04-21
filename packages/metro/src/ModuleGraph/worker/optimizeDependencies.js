@@ -18,7 +18,7 @@ const traverse = require('@babel/traverse').default;
 const babelGenerate = require('@babel/generator').default;
 
 import type {Ast} from '@babel/core';
-import type {TransformResultDependency} from 'metro/src/DeltaBundler';
+import type {TransformResultDependency} from '@irbnb/metro/src/DeltaBundler';
 
 type Context = {
   oldToNewIndex: Map<number, number>,

@@ -30,7 +30,7 @@ describe('require', () => {
     return transformSync(rawCode, {
       ast: false,
       babelrc: false,
-      presets: [require.resolve('metro-react-native-babel-preset')],
+      presets: [require.resolve('@irbnb/metro-react-native-babel-preset')],
       retainLines: true,
       sourceMaps: 'inline',
       sourceType: 'module',

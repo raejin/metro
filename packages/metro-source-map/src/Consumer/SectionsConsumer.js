@@ -17,7 +17,7 @@ const createConsumer = require('./createConsumer');
 const {FIRST_COLUMN, FIRST_LINE, EMPTY_POSITION} = require('./constants');
 const {subtractOffsetFromPosition} = require('./positionMath');
 const {greatestLowerBound} = require('./search');
-const {add, get0, get1, add0, sub1, sub} = require('ob1');
+const {add, get0, get1, add0, sub1, sub} = require('@irbnb/ob1');
 
 import type {IndexMap} from '../source-map';
 import type {

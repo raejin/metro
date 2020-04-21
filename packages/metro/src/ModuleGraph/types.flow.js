@@ -16,7 +16,7 @@ import type {
   FBSourceFunctionMap,
   BasicSourceMap,
 } from 'metro-source-map';
-import type {TransformResultDependency} from 'metro/src/DeltaBundler';
+import type {TransformResultDependency} from '@irbnb/metro/src/DeltaBundler';
 
 export type BuildResult = GraphResult;
 

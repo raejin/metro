@@ -10,13 +10,13 @@
 
 'use strict';
 
-const {greatestLowerBound} = require('metro-source-map/src/Consumer/search');
+const {greatestLowerBound} = require('@irbnb/metro-source-map/src/Consumer/search');
 const {
   SourceMetadataMapConsumer,
-} = require('metro-symbolicate/src/Symbolication');
+} = require('@irbnb/metro-symbolicate/src/Symbolication');
 
 import type {ExplodedSourceMap} from '../DeltaBundler/Serializers/getExplodedSourceMap';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 export type StackFrameInput = {
   +file: ?string,

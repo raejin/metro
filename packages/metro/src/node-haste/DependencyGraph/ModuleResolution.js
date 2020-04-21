@@ -10,7 +10,7 @@
 
 'use strict';
 
-const Resolver = require('metro-resolver');
+const Resolver = require('@irbnb/metro-resolver');
 
 const fs = require('fs');
 const invariant = require('invariant');

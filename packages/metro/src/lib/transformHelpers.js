@@ -16,7 +16,7 @@ import type Bundler from '../Bundler';
 import type {TransformOptions} from '../DeltaBundler/Worker';
 import type DeltaBundler, {TransformFn} from '../DeltaBundler';
 import type {Type} from '../JSTransformer/worker';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 type InlineRequiresRaw = {+blacklist: {[string]: true, ...}, ...} | boolean;
 

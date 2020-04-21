@@ -41,7 +41,7 @@ const {
 const {
   Logger,
   Logger: {createActionStartEntry, createActionEndEntry, log},
-} = require('metro-core');
+} = require('@irbnb/metro-core');
 
 import type {AssetData} from './Assets';
 import type {ExplodedSourceMap} from './DeltaBundler/Serializers/getExplodedSourceMap';
@@ -57,8 +57,8 @@ import type {
   SplitBundleOptions,
 } from './shared/types.flow';
 import type {IncomingMessage, ServerResponse} from 'http';
-import type {CacheStore} from 'metro-cache';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {CacheStore} from '@irbnb/metro-cache';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 import type {
   ActionLogEntryData,
   ActionStartLogEntry,

@@ -10,10 +10,10 @@
 
 'use strict';
 
-const TerminalReporter = require('metro/src/lib/TerminalReporter');
+const TerminalReporter = require('@irbnb/metro/src/lib/TerminalReporter');
 
 const blacklist = require('./blacklist');
-const getMaxWorkers = require('metro/src/lib/getMaxWorkers');
+const getMaxWorkers = require('@irbnb/metro/src/lib/getMaxWorkers');
 const os = require('os');
 const path = require('path');
 
@@ -25,8 +25,8 @@ const {
   DEFAULT_METRO_MINIFIER_PATH,
   defaultCreateModuleIdFactory,
 } = require('./defaults');
-const {FileStore} = require('metro-cache');
-const {Terminal} = require('metro-core');
+const {FileStore} = require('@irbnb/metro-cache');
+const {Terminal} = require('@irbnb/metro-core');
 
 import type {ConfigT} from '../configTypes.flow';
 
@@ -125,7 +125,7 @@ const getDefaultValues = (projectRoot: ?string): ConfigT => ({
   projectRoot: projectRoot || path.resolve(__dirname, '../../..'),
   stickyWorkers: true,
   watchFolders: [],
-  transformerPath: require.resolve('metro/src/JSTransformer/worker.js'),
+  transformerPath: require.resolve('@irbnb/metro/src/JSTransformer/worker.js'),
   maxWorkers: getMaxWorkers(),
   resetCache: false,
   reporter: new TerminalReporter(new Terminal(process.stdout)),

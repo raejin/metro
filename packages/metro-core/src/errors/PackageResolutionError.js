@@ -10,8 +10,8 @@
 
 'use strict';
 
-const {formatFileCandidates} = require('metro-resolver');
-const {InvalidPackageError} = require('metro-resolver');
+const {formatFileCandidates} = require('@irbnb/metro-resolver');
+const {InvalidPackageError} = require('@irbnb/metro-resolver');
 
 class PackageResolutionError extends Error {
   originModulePath: string;

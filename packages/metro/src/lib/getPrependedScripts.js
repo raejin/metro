@@ -11,14 +11,14 @@
 'use strict';
 
 const countLines = require('./countLines');
-const defaults = require('metro-config/src/defaults/defaults');
+const defaults = require('@irbnb/metro-config/src/defaults/defaults');
 const getPreludeCode = require('./getPreludeCode');
 const transformHelpers = require('./transformHelpers');
 
 import type Bundler from '../Bundler';
 import type DeltaBundler, {Module} from '../DeltaBundler';
 import type {TransformInputOptions} from '../lib/transformHelpers';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 async function getPrependedScripts(
   config: ConfigT,

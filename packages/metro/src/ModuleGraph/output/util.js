@@ -17,11 +17,11 @@ const reverseDependencyMapReferences = require('./reverse-dependency-map-referen
 const virtualModule = require('../module').virtual;
 
 // flowlint-next-line untyped-import:off
-const {passthroughSyntaxPlugins} = require('metro-react-native-babel-preset');
+const {passthroughSyntaxPlugins} = require('@irbnb/metro-react-native-babel-preset');
 const {transformSync} = require('@babel/core');
 
 import type {Dependency, IdsForPathFn, Module} from '../types.flow';
-import type {BasicSourceMap} from 'metro-source-map';
+import type {BasicSourceMap} from '@irbnb/metro-source-map';
 
 // Transformed modules have the form
 //   __d(function(require, module, global, exports, dependencyMap) {

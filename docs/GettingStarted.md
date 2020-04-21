@@ -24,7 +24,7 @@ You can run Metro by either running the [CLI](./CLI.md) or by calling it program
 First, require the module by doing:
 
 ```js
-const Metro = require('metro');
+const Metro = require('@irbnb/metro');
 ```
 
 Within the object returned, several main methods are given:
@@ -37,7 +37,7 @@ Given the config, a `metro-server` will be returned. You can then hook this into
 'use strict';
 
 const http = require('http');
-const Metro = require('metro');
+const Metro = require('@irbnb/metro');
 
 // We first load the config from the file system
 Metro.loadConfig().then(config => {
@@ -134,7 +134,7 @@ Instead of creating the full server, creates a Connect middleware that answers t
 * `port (number)`: Port for the Connect Middleware (Only for logging purposes).
 
 ```js
-const Metro = require('metro');
+const Metro = require('@irbnb/metro');
 const express = require('express');
 const app = express();
 const server = require('http').Server(app);

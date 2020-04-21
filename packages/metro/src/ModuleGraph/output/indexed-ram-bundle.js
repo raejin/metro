@@ -21,7 +21,7 @@ const {
 const {getModuleCodeAndMap, partition, toModuleTransport} = require('./util');
 
 import type {Module, OutputFn, OutputFnArg} from '../types.flow';
-import type {IndexMap} from 'metro-source-map';
+import type {IndexMap} from '@irbnb/metro-source-map';
 
 function asIndexedRamBundle({
   filename,

@@ -26,7 +26,7 @@ const url = require('url');
 
 const {
   Logger: {createActionStartEntry, createActionEndEntry, log},
-} = require('metro-core');
+} = require('@irbnb/metro-core');
 
 import type {RevisionId} from './IncrementalBundler';
 import type {
@@ -35,7 +35,7 @@ import type {
   HmrUpdateMessage,
   HmrErrorMessage,
 } from './lib/bundle-modules/types.flow';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 type $ReturnType<F> = $Call<<A, R>((...A) => R) => R, F>;
 export type EntryPointURL = $ReturnType<typeof url.parse>;

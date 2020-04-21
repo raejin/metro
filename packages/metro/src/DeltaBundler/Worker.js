@@ -14,14 +14,14 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 
-const {stableHash} = require('metro-cache');
+const {stableHash} = require('@irbnb/metro-cache');
 
 import type Transformer, {
   JsTransformOptions,
   JsTransformerConfig,
 } from '../JSTransformer/worker';
 import type {TransformResult} from './types.flow';
-import type {LogEntry} from 'metro-core/src/Logger';
+import type {LogEntry} from '@irbnb/metro-core/src/Logger';
 
 export type {
   JsTransformOptions as TransformOptions,

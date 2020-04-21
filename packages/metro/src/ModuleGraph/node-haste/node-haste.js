@@ -14,7 +14,7 @@ const HasteFS = require('./HasteFS');
 const Module = require('./Module');
 const ModuleCache = require('./ModuleCache');
 
-const defaults = require('metro-config/src/defaults/defaults');
+const defaults = require('@irbnb/metro-config/src/defaults/defaults');
 const parsePlatformFilePath = require('../../node-haste/lib/parsePlatformFilePath');
 const path = require('path');
 
@@ -26,7 +26,7 @@ const {ModuleMap} = require('jest-haste-map');
 import type {Moduleish} from '../../node-haste/DependencyGraph/ModuleResolution';
 import type {ResolveFn, TransformedCodeFile} from '../types.flow';
 import type {Extensions, Path} from './node-haste.flow';
-import type {CustomResolver} from 'metro-resolver';
+import type {CustomResolver} from '@irbnb/metro-resolver';
 
 type ResolveOptions = {|
   assetExts: Extensions,

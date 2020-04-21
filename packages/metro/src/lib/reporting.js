@@ -14,7 +14,7 @@ const chalk = require('chalk');
 const stripAnsi = require('strip-ansi');
 const util = require('util');
 
-const {Terminal} = require('metro-core');
+const {Terminal} = require('@irbnb/metro-core');
 
 export type GlobalCacheDisabledReason = 'too_many_errors' | 'too_many_misses';
 

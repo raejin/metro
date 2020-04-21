@@ -14,7 +14,7 @@
 // $FlowFixMe: too hard to type, and they only have a .ts file.
 const sourceMap = require('source-map');
 
-import type {MixedSourceMap, BasicSourceMap} from 'metro-source-map';
+import type {MixedSourceMap, BasicSourceMap} from '@irbnb/metro-source-map';
 
 function mergeSourceMaps(
   file: string,

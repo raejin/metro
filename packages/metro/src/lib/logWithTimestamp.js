@@ -13,7 +13,7 @@
 const chalk = require('chalk');
 const formatLogTimestamp = require('./formatLogTimestamp');
 
-import type {Terminal} from 'metro-core';
+import type {Terminal} from '@irbnb/metro-core';
 
 const groupStack = [];
 let collapsedGuardTimer;
