@@ -1,5 +1,5 @@
 {
-  "name": "buck-worker-tool",
+  "name": "@irbnb/buck-worker-tool",
   "version": "0.59.0",
   "description": "Implementation of the Buck worker protocol for Node.js.",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "temp": "^0.8.3"
   },
   "devDependencies": {
-    "metro-memory-fs": "0.59.0",
+    "@irbnb/metro-memory-fs": "0.59.0",
     "mkdirp": "^0.5.1"
   },
   "scripts": {

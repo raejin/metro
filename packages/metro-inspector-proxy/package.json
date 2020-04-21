@@ -1,7 +1,7 @@
 {
-  "name": "metro-inspector-proxy",
+  "name": "@irbnb/metro-inspector-proxy",
   "version": "0.59.0",
-  "description": "metro-inspector-proxy",
+  "description": "@irbnb/metro-inspector-proxy",
   "main": "src/index.js",
   "bin": "src/cli.js",
   "repository": {
@@ -13,7 +13,7 @@
     "cleanup-release": "test ! -e build && mv src build && mv src.real src"
   },
   "keywords": [
-    "metro"
+    "@irbnb/metro"
   ],
   "license": "MIT",
   "dependencies": {

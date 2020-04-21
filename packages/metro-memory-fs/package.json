@@ -1,6 +1,6 @@
 {
   "version": "0.59.0",
-  "name": "metro-memory-fs",
+  "name": "@irbnb/metro-memory-fs",
   "description": "A memory-based implementation of `fs` useful for automated tests",
   "main": "src/index.js",
   "repository": {
