@@ -14,7 +14,7 @@ const ResourceNotFoundError = require('../../IncrementalBundler/ResourceNotFound
 
 const path = require('path');
 
-const {getDefaultValues} = require('metro-config/src/defaults');
+const {getDefaultValues} = require('@irbnb/metro-config/src/defaults');
 
 jest
   .mock('jest-worker', () => ({}))

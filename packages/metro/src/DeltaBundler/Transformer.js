@@ -21,7 +21,7 @@ const {Cache, stableHash} = require('@irbnb/metro-cache');
 
 import type {TransformResult, TransformResultWithSource} from '../DeltaBundler';
 import type {TransformOptions, TransformerConfig} from './Worker';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 class Transformer {
   _config: ConfigT;

@@ -32,7 +32,7 @@ const {
 import type {ModuleMap} from './DependencyGraph/ModuleResolution';
 import type Package from './Package';
 import type {HasteFS} from './types';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 const JEST_HASTE_MAP_CACHE_BREAKER = 5;
 

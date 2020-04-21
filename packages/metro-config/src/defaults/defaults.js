@@ -10,7 +10,7 @@
 
 'use strict';
 
-const defaultCreateModuleIdFactory = require('metro/src/lib/createModuleIdFactory');
+const defaultCreateModuleIdFactory = require('@irbnb/metro/src/lib/createModuleIdFactory');
 
 exports.assetExts = [
   // Image formats

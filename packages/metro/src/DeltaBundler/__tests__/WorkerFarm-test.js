@@ -10,7 +10,7 @@
 
 'use strict';
 
-const getDefaultConfig = require('metro-config/src/defaults');
+const getDefaultConfig = require('@irbnb/metro-config/src/defaults');
 
 const {Readable} = require('stream');
 

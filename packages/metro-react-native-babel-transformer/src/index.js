@@ -15,7 +15,7 @@
 const crypto = require('crypto');
 const fs = require('fs');
 const inlineRequiresPlugin = require('babel-preset-fbjs/plugins/inline-requires');
-const makeHMRConfig = require('metro-react-native-babel-preset/src/configs/hmr');
+const makeHMRConfig = require('@irbnb/metro-react-native-babel-preset/src/configs/hmr');
 const path = require('path');
 
 const {parseSync, transformFromAstSync} = require('@babel/core');

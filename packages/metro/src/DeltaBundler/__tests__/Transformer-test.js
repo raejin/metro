@@ -19,8 +19,8 @@ jest
   .mock('/path/to/transformer.js', () => ({}), {virtual: true});
 
 var Transformer = require('../Transformer');
-var {getDefaultValues} = require('metro-config/src/defaults');
-var {mergeConfig} = require('metro-config/src/loadConfig');
+var {getDefaultValues} = require('@irbnb/metro-config/src/defaults');
+var {mergeConfig} = require('@irbnb/metro-config/src/loadConfig');
 var fs = require('fs');
 const mkdirp = require('mkdirp');
 

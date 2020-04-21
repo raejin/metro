@@ -10,10 +10,10 @@
 
 'use strict';
 
-const TerminalReporter = require('metro/src/lib/TerminalReporter');
+const TerminalReporter = require('@irbnb/metro/src/lib/TerminalReporter');
 
 const blacklist = require('./blacklist');
-const getMaxWorkers = require('metro/src/lib/getMaxWorkers');
+const getMaxWorkers = require('@irbnb/metro/src/lib/getMaxWorkers');
 const os = require('os');
 const path = require('path');
 

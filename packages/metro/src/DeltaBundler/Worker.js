@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 
 import type {TransformResult} from './types.flow';
-import type {LogEntry} from 'metro-core/src/Logger';
+import type {LogEntry} from '@irbnb/metro-core/src/Logger';
 import type {
   JsTransformOptions,
   JsTransformerConfig,

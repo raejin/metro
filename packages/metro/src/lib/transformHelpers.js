@@ -15,7 +15,7 @@ const path = require('path');
 import type Bundler from '../Bundler';
 import type {TransformOptions} from '../DeltaBundler/Worker';
 import type DeltaBundler, {TransformFn} from '../DeltaBundler';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 import type {Type} from '@irbnb/metro-transform-worker';
 
 type InlineRequiresRaw = {+blacklist: {[string]: true, ...}, ...} | boolean;

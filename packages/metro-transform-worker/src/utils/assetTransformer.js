@@ -12,8 +12,8 @@
 
 const path = require('path');
 
-const {getAssetData} = require('metro/src/Assets');
-const {generateAssetCodeFileAst} = require('metro/src/Bundler/util');
+const {getAssetData} = require('@irbnb/metro/src/Assets');
+const {generateAssetCodeFileAst} = require('@irbnb/metro/src/Bundler/util');
 
 import type {Ast} from '@babel/core';
 import type {BabelTransformerArgs} from '@irbnb/metro-babel-transformer';

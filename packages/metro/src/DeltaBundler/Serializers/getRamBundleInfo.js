@@ -24,7 +24,7 @@ import type {
   RamModuleTransport,
 } from '../../shared/types.flow';
 import type {Graph, Module, SerializerOptions} from '../types.flow';
-import type {GetTransformOptions} from 'metro-config/src/configTypes.flow.js';
+import type {GetTransformOptions} from '@irbnb/metro-config/src/configTypes.flow.js';
 
 type Options = {|
   ...SerializerOptions,

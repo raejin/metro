@@ -16,7 +16,7 @@ const JestWorker = require('jest-worker').default;
 import type {Readable} from 'stream';
 import type {TransformResult} from '../DeltaBundler';
 import type {TransformOptions, TransformerConfig, Worker} from './Worker';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 
 type WorkerInterface = {|
   getStdout(): Readable,

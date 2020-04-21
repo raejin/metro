@@ -21,10 +21,10 @@ import type {
   Module,
   SerializerOptions,
 } from 'metro/src/DeltaBundler/types.flow.js';
-import type {TransformResult} from 'metro/src/DeltaBundler';
-import type {TransformVariants} from 'metro/src/ModuleGraph/types.flow.js';
-import type Server from 'metro/src/Server';
-import type {Reporter} from 'metro/src/lib/reporting';
+import type {TransformResult} from '@irbnb/metro/src/DeltaBundler';
+import type {TransformVariants} from '@irbnb/metro/src/ModuleGraph/types.flow.js';
+import type Server from '@irbnb/metro/src/Server';
+import type {Reporter} from '@irbnb/metro/src/lib/reporting';
 
 export type PostMinifyProcess = ({
   code: string,

@@ -18,7 +18,7 @@ const {
 const {parse} = require('@babel/parser');
 const {
   SourceMetadataMapConsumer,
-} = require('metro-symbolicate/src/Symbolication');
+} = require('@irbnb/metro-symbolicate/src/Symbolication');
 
 function getAst(source) {
   return parse(source, {

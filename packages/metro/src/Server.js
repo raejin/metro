@@ -58,7 +58,7 @@ import type {
 } from './shared/types.flow';
 import type {IncomingMessage, ServerResponse} from 'http';
 import type {CacheStore} from '@irbnb/metro-cache';
-import type {ConfigT} from 'metro-config/src/configTypes.flow';
+import type {ConfigT} from '@irbnb/metro-config/src/configTypes.flow';
 import type {
   ActionLogEntryData,
   ActionStartLogEntry,

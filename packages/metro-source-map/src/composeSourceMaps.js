@@ -22,7 +22,7 @@ function composeSourceMaps(
   maps: $ReadOnlyArray<MixedSourceMap>,
 ): MixedSourceMap {
   // NOTE: require() here to break dependency cycle
-  const SourceMetadataMapConsumer = require('metro-symbolicate/src/SourceMetadataMapConsumer');
+  const SourceMetadataMapConsumer = require('@irbnb/metro-symbolicate/src/SourceMetadataMapConsumer');
   if (maps.length < 1) {
     throw new Error('composeSourceMaps: Expected at least one map');
   }

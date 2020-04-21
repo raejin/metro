@@ -15,7 +15,7 @@ const path = require('path');
 
 const {EventEmitter} = require('events');
 
-import type {BundleOptions} from 'metro/src/shared/types.flow';
+import type {BundleOptions} from '@irbnb/metro/src/shared/types.flow';
 
 const VERSION = require('../package.json').version;
 

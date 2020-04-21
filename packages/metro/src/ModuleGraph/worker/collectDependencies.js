@@ -18,7 +18,7 @@ const traverse = require('@babel/traverse').default;
 const types = require('@babel/types');
 
 import type {Ast} from '@babel/core';
-import type {AllowOptionalDependencies} from 'metro/src/DeltaBundler/types.flow.js';
+import type {AllowOptionalDependencies} from '@irbnb/metro/src/DeltaBundler/types.flow.js';
 
 opaque type Identifier = any;
 opaque type Path = any;

@@ -10,14 +10,14 @@
 
 'use strict';
 
-const JsFileWrapping = require('metro/src/ModuleGraph/worker/JsFileWrapping');
+const JsFileWrapping = require('@irbnb/metro/src/ModuleGraph/worker/JsFileWrapping');
 
 const assetTransformer = require('./utils/assetTransformer');
 const babylon = require('@babel/parser');
-const collectDependencies = require('metro/src/ModuleGraph/worker/collectDependencies');
-const generateImportNames = require('metro/src/ModuleGraph/worker/generateImportNames');
+const collectDependencies = require('@irbnb/metro/src/ModuleGraph/worker/collectDependencies');
+const generateImportNames = require('@irbnb/metro/src/ModuleGraph/worker/generateImportNames');
 const generate = require('@babel/generator').default;
-const getKeyFromFiles = require('metro/src/lib/getKeyFromFiles');
+const getKeyFromFiles = require('@irbnb/metro/src/lib/getKeyFromFiles');
 const getMinifier = require('./utils/getMinifier');
 const {
   constantFoldingPlugin,
@@ -30,16 +30,16 @@ const inlineRequiresPlugin = require('babel-preset-fbjs/plugins/inline-requires'
 const {transformFromAstSync} = require('@babel/core');
 const {stableHash} = require('@irbnb/metro-cache');
 const types = require('@babel/types');
-const countLines = require('metro/src/lib/countLines');
+const countLines = require('@irbnb/metro/src/lib/countLines');
 
 const {
   fromRawMappings,
   toBabelSegments,
   toSegmentTuple,
 } = require('@irbnb/metro-source-map');
-import type {TransformResultDependency} from 'metro/src/DeltaBundler';
-import type {AllowOptionalDependencies} from 'metro/src/DeltaBundler/types.flow.js';
-import type {DynamicRequiresBehavior} from 'metro/src/ModuleGraph/worker/collectDependencies';
+import type {TransformResultDependency} from '@irbnb/metro/src/DeltaBundler';
+import type {AllowOptionalDependencies} from '@irbnb/metro/src/DeltaBundler/types.flow.js';
+import type {DynamicRequiresBehavior} from '@irbnb/metro/src/ModuleGraph/worker/collectDependencies';
 import type {
   BasicSourceMap,
   FBSourceFunctionMap,
@@ -423,9 +423,9 @@ module.exports = {
       require.resolve(minifierPath),
       require.resolve('./utils/getMinifier'),
       require.resolve('./utils/assetTransformer'),
-      require.resolve('metro/src/ModuleGraph/worker/collectDependencies'),
-      require.resolve('metro/src/ModuleGraph/worker/generateImportNames'),
-      require.resolve('metro/src/ModuleGraph/worker/JsFileWrapping'),
+      require.resolve('@irbnb/metro/src/ModuleGraph/worker/collectDependencies'),
+      require.resolve('@irbnb/metro/src/ModuleGraph/worker/generateImportNames'),
+      require.resolve('@irbnb/metro/src/ModuleGraph/worker/JsFileWrapping'),
       ...getTransformPluginCacheKeyFiles(),
     ]);
 
